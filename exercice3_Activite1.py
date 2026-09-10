@@ -3,7 +3,7 @@
 # en prenant en entrée la valeur et l’unité de départ ainsi que l’unité d’arrivée, et retourne la valeur convertie. 
 # Exemple : conversion_masse(45, “kg”, “g”) devra retourner 45000.
 
-unite_masse = {"t": 1, "q": 2, "10kg": 3, "kg": 4, "hg": 5, "dag": 6, "g": 7, "dg": 8, "cg": 9, "mg": 10} # modification 2
+unite_masse = {"t": 1, "q": 2, "10kg": 3, "kg": 4, "hg": 5, "dag": 6, "g": 7, "dg": 8, "cg": 9, "mg": 10} # modification 4
 
 def conversion_masse(valeurD: float, unitéD: str, unitéA: str) -> float:
     valeurA = valeurD
